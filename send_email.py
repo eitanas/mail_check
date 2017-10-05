@@ -11,6 +11,6 @@ TO = 'eitanas85@gmail.com'
 mail = smtplib.SMTP('smtp.gmail.com', 587)
 mail.ehlo()
 mail.starttls()
-mail.login(FROM, 'ea5283040')
+mail.login(FROM, '**************')
 
 mail.sendmail(FROM, TO, message)
